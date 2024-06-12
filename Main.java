@@ -88,7 +88,7 @@ public class Main {
 
         try (BufferedReader logFile = new BufferedReader(new FileReader(logFilename))) {
             String line;
-            System.out.println("Erros registrados em " + logDate + ":");
+            System.out.println("Dados " + logDate + ":");
             while ((line = logFile.readLine()) != null) {
                 System.out.println(line);
             }
